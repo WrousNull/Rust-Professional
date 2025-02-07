@@ -14,6 +14,7 @@ struct Node<T> {
     next: Option<NonNull<Node<T>>>,
 }
 
+
 impl<T> Node<T> {
     fn new(t: T) -> Node<T> {
         Node {
